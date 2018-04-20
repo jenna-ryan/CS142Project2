@@ -1,0 +1,8 @@
+John Smith
+123-456-7890
+--------------------------------------------------
+  next      search  edit    quit  
+  previous  add     delete  
+-------
+command: e
+new number: 

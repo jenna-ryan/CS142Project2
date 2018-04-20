@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1382625721 source:c:\users\alexis\documents\cs142\prep\phonebook1_0\phonebook.cpp
+	"PhoneBook.h"
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+
+1382624129 c:\users\alexis\documents\cs142\prep\phonebook1_0\phonebook.h
+	<iostream>
+	<string>
+	<map>
+	"PhoneBookList.h"
+
+1382627618 c:\users\alexis\documents\cs142\prep\phonebook1_0\phonebooklist.h
+	<iostream>
+	<map>
+	<string>
+	"PhoneBookEntry.h"
+
+1382624702 c:\users\alexis\documents\cs142\prep\phonebook1_0\phonebookentry.h
+	<fstream>
+	<string>
+
+1382626439 source:c:\users\alexis\documents\cs142\prep\phonebook1_0\phonebooklist.cpp
+	"PhoneBookList.h"
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+
+1333469520 source:c:\users\alexis\documents\cs142\prep\phonebook1_0\test.cpp
+	"PhoneBook.h"
+
+1510244837 source:c:\users\alexis\documents\cs142\cours\phonebook1_0\phonebook.cpp
+	"PhoneBook.h"
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+
+1510244837 c:\users\alexis\documents\cs142\cours\phonebook1_0\phonebook.h
+	<iostream>
+	<string>
+	<map>
+	"PhoneBookList.h"
+
+1510254406 c:\users\alexis\documents\cs142\cours\phonebook1_0\phonebooklist.h
+	<iostream>
+	<map>
+	<string>
+	"PhoneBookEntry.h"
+
+1510443100 c:\users\alexis\documents\cs142\cours\phonebook1_0\phonebookentry.h
+	<fstream>
+	<string>
+
+1510244838 source:c:\users\alexis\documents\cs142\cours\phonebook1_0\test.cpp
+	"PhoneBook.h"
+
+1510244837 source:c:\users\alexis\documents\cs142\cours\phonebook1_0\phonebooklist.cpp
+	"PhoneBookList.h"
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+
+1396130859 source:c:\users\alexis\documents\cs142\web\code\phonebook1_0\phonebooklist.cpp
+	"PhoneBookList.h"
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+
+1396130954 c:\users\alexis\documents\cs142\web\code\phonebook1_0\phonebooklist.h
+	<iostream>
+	<map>
+	<string>
+	"PhoneBookEntry.h"
+
+1396130763 c:\users\alexis\documents\cs142\web\code\phonebook1_0\phonebookentry.h
+	<fstream>
+	<string>
+
+1333469520 source:c:\users\alexis\documents\cs142\web\code\phonebook1_0\test.cpp
+	"PhoneBook.h"
+
+1396130728 c:\users\alexis\documents\cs142\web\code\phonebook1_0\phonebook.h
+	<iostream>
+	<string>
+	<map>
+	"PhoneBookList.h"
+

@@ -1,0 +1,64 @@
+Phone book
+Version 1.0
+
+SPECIFICATION
+  
+
+OVERVIEW
+
+A simple phone book whose entries consist of a name and a 
+phone number.  The user can browse the phone book, search for 
+an entry, and add, edit and delete entries.  
+
+
+DETAILS
+
+The phone book displays a single entry, which consists of a 
+name and a phone number on separate line.  Below the entry, a 
+menu of commands is displayed.  Below that menu, the prompt 
+"command:" is displayed.  The user types the first letter of a 
+command, the command executes and the appropriate entry is 
+displayed.  Some commands prompt the user for more information.  
+
+The entries are displayed in alphabetical order.  No entry is 
+displayed if the phone book is empty.  
+
+
+SAMPLE INTERFACE  
+
+John Smith
+123-456-7890
+--------------------------------------------------
+  next      search  edit    quit  
+  previous  add     delete  
+-------
+command: e
+new number: 
+
+
+COMMANDS
+
+next: The next entry is displayed.  Wraps around.
+
+previous: The previous entry is displayed.  Wraps around.
+
+search: Asks for a name and displays the corresponding entry.  
+If not found, the earlier entry is redisplayed.
+
+add: Asks for a new name and phone number, adds a new entry to 
+the phone book and displays the new entry.
+
+edit: Asks for a new number and edits the current entry.  Does 
+nothing if the phone book is empty.  
+
+delete: Deletes the current entry.  Displays the next one (with 
+possible wrap-around).  Does nothing if the phone book is 
+empty.  
+
+quit: Saves the phone book to a file and halts the program.
+
+
+
+NOTES FOR LATER VERSIONS
+
+Add error-checking.  
